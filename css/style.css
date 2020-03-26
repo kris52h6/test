@@ -1,0 +1,401 @@
+/* style.css - til dine custom styles */
+
+/**************************************************/
+/* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
+/**************************************************/
+
+#hero {
+}
+
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+@media (min-width: 576px) {
+}
+
+/* END "sm-" 576px and up */
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {
+}
+
+/* END "md-" 768px and up */
+
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+  /* END "lg-" 992px and up */
+}
+
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+  /* END "xl-" 1200px and up */
+}
+
+/*
+.bg-custom-1 {
+    background-color: #85144b;
+}
+
+.bg-custom-2 {
+    background-image: linear-gradient(15deg, #ff547a 0%, #80d0c7 100%);
+}
+*/
+
+/* very ugly & annoying hover effect*/
+body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  transition: background-color 1s ease;
+}
+
+a:hover {
+  border-bottom: 2px solid #000000;
+  border-bottom-width: thin;
+}
+
+.active {
+}
+
+/*.menu2 {
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin: 3rem 0 0;
+}
+
+/*Selve knappen*/
+button {
+  /*    font-size: 1rem;*/
+  /*Den indre afstand i boksen*/
+  padding: 10px;
+  /*Fjerner kanten på knapperne*/
+  margin: 0 0.2rem;
+  cursor: pointer;
+  /*    border: 0;*/
+  text-transform: uppercase;
+  /*    font-weight: 400;*/
+  color: #000000;
+  background-color: white;
+}
+
+/*
+
+
+a .overskrift {
+    text-align: center;
+    font-size: 200em;
+}
+*/
+
+#omos {
+  width: 100%;
+  height: 500px;
+  background: url("img-kopi/beans-coffee-drink-cafe-34085-kopi.jpg");
+  background-position: center;
+  background-size: cover;
+  /*    background-attachment: fixed;*/
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#omos h5 {
+  color: white;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#omos p {
+  color: white;
+  align-content: center;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+
+#omos h2 {
+  font-size: 4em;
+  color: white;
+  font-weight: 400;
+}
+
+.omos_text {
+  margin-top: 8%;
+}
+
+.vision_indhold {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .vision_indhold {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .vision_indhold {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .vision_indhold {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .vision_indhold {
+    max-width: 1140px;
+  }
+}
+
+#vision h5 {
+  font-size: 1em;
+}
+
+#facts p::first-letter {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-image: url("Infinity-3.4s-247px.gif");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+}
+
+hr {
+  border: 0.5px solid black;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+#kokos {
+  width: 100%;
+  height: 500px;
+  background: url("img-kopi/coconut.jpeg");
+  background-position: center;
+  background-size: cover;
+  /*    background-attachment: fixed;*/
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.facts_indhold {
+  width: 100%;
+  padding-right: 45px;
+  padding-left: 45px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .facts_indhold {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .facts_indhold {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .facts_indhold {
+    max-width: 960px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .facts_indhold {
+    max-width: 1140px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+  }
+}
+
+.rgba-brown-light {
+  background-color: rgba(121, 85, 72, 0.11);
+}
+
+.brown lighten-2 {
+  background-color: #a1887f;
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+#kokos {
+  max-width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(img-kopi/coconut.jpeg);
+}
+
+.home-newsletter {
+  padding: 80px 0;
+  background: rgba(121, 85, 72, 0.11);
+}
+
+.home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.home-newsletter .single h2 {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+}
+
+.home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #243c4f;
+}
+
+.home-newsletter .single .btn {
+  min-height: 50px;
+  background: #000000;
+  color: #fff;
+}
+
+#havre {
+  max-width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(img-kopi/havre3.jpeg);
+}
+
+#mandel {
+  max-width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(img-kopi/almonds.jpeg);
+}
+
+#ris {
+  max-width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(img-kopi/rice_field.jpg);
+}
+
+#soya {
+  max-width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(img-kopi/soybeans-in-sack-3735181.jpg);
+}
